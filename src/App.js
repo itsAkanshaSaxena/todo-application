@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/login" component={LoginSignupPage} />
+          <Route exact path="/todo-application/login" component={LoginSignupPage} />
           <ProtectedRoute path="/homepage" component={HomePage} />
           <Route path="*" component={ErrorPage} />
         </Switch>
