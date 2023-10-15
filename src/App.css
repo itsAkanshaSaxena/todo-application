@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+.img-completed {
+  width: 250px;
+  text-align: center;
+}
+.imagebox {
+  text-align: center;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 1.275rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 4px solid gray;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 1.15s ease-in-out;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.container-for-tasks {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logout-button{
+  position: absolute;
+    right: 0;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.heading{
+  text-align:center;
+  
+  margin-top: 6%;
+}
+
+.logout-button{
+  position: absolute;
+    right: 0;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+}
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  margin-top: -14rem;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.signup-btn{
+  width: 16.8%;
+}
+.or-section{
+  margin-top: 1rem;
+}
+
+.designbottom{
+  margin-bottom: 5%;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+ 
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.glow {
+  margin-top: 20%;
+  font-weight: 500;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(
+  135deg,
+  #6bc5f8,
+  #cf59e6,
+  #6bc5f8,
+  #cf59e6
+  );
+  background: linear-gradient(-45deg, #6bc5f8, #cf59e6, #6bc5f8, #cf59e6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  -webkit-animation: gradient 5s ease infinite;
+  animation: gradient 5s ease infinite;
+ }
+ @keyframes gradient {
+  0% {
+  background-position: 0 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+ 
+  100% {
+  background-position: 0 50%;
+  }
+ }
+
+ .label1{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.editerrorpg{
+  margin-top: 14%;
+}
+
+.App-logo{
+  margin-top: 4rem;
+}
