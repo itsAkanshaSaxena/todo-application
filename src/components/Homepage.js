@@ -3,7 +3,7 @@ import "../App.css";
 import swal from "sweetalert";
 import ListItems from "./itemList";
 import NavBar from "./navbar";
-
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 import "mdbreact/dist/css/mdb.css";
@@ -27,7 +27,7 @@ const Homepage = () => {
             className="img-completed"
             alt=""
             align="center"
-            src="https://raw.githubusercontent.com/abhisheksaxena1998/reactToDoApplication/main/public/completed.png"
+            src="https://raw.githubusercontent.com/itsAkanshaSaxena/todo-application/main/public/completed.png"
           ></img>
         </div>
       );
@@ -38,7 +38,7 @@ const Homepage = () => {
             className="img-completed"
             alt=""
             align="center"
-            src="https://raw.githubusercontent.com/abhisheksaxena1998/reactToDoApplication/main/public/todo.png"
+            src="https://raw.githubusercontent.com/itsAkanshaSaxena/todo-application/main/public/todo.png"
           ></img>
         </div>
       );

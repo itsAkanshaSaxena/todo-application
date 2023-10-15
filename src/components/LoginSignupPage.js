@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 import NavBar from "./navbar";
 import swal from "sweetalert";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const LoginSignupPage = (props) => {
   const [email, setEmail] = useState("");

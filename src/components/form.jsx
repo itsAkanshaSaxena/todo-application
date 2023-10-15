@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "bootstrap/dist/css/bootstrap.min.css"
 import "mdbreact/dist/css/mdb.css";
 
 const Formz = (props) => {

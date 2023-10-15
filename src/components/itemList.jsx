@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import swal from "sweetalert";
 import "./itemList.css";
-
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import "mdbreact/dist/css/mdb.css";
 
