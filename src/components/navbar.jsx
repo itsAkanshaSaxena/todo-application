@@ -1,5 +1,5 @@
 import React from "react";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 import "mdbreact/dist/css/mdb.css";
 import "../App.css";
