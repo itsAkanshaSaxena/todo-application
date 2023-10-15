@@ -82,7 +82,7 @@ const LoginSignupPage = (props) => {
         </>
       ) : (
         <>
-          <h2 class="designbottom">Sign in</h2>
+          <h2 className="designbottom">Sign in</h2>
           <form onSubmit={handleSignin}>
             <label>
               <div className="label1">
