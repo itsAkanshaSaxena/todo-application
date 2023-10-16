@@ -34,7 +34,7 @@ features. Users should be able to sign up for an account, log in, and manage the
 2. Navigate to todo-application.
 3. Install all the dependencies using npm install
 4. Start using npm start
-5. Open web page
+5. Open web page using http://localhost:3000/
 
 ## Getting Started with Create React App
 
